@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-3</title>
+
+  <!-- =====  Bootstrap CSS  ===== -->
+  <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+
+  <!-- =====  Custom CSS  ===== -->
+  <link rel="stylesheet" href="assets/css/stlye.css">
+
+  <!-- =====  Swiper Slider CSS  ===== -->
+  <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+
+  <!--  ===== boostrap icons ===== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+
+  <!----------- ========== navbar section starts ========== ----------->
+
+  <div class="main-transparent">
+
+    <nav class="navbar navbar-expand-lg nav-border">
+      <div class="container">
+        <a class="navbar-brand nav-logo" href="#">
+          <img src="assets/images/black-logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Listing
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Member
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-last">
+            <i class="bi bi-telephone"></i>
+            <p>+68 6858 88666</p>
+          </div>
+          <div class="nav-btn">
+            <i class="bi bi-person person"></i>
+            <button type="button" class="btn profile-btn">Add profile</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!----------- ========== navbar section ends ========== ----------->
+    <!----------- ========== banner section starts ========== ----------->
+
+    <div class="my-banner">
+      <h1>The <span>#1</span> site real estate
+        professionals trust*</h1>
+      <p class="banner-p">From as low as $10 per day with limited time offer discounts.</p>
+
+      <ul class="nav nav-pills tab-sale" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class=" active for-sale" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Sale</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="for-sale" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Rent</button>
+        </li>
+
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+          <div class="sale-white">
+
+            <div class="type-input">
+              <input type="text" class="inp-typ" placeholder="Type">
+              <input type="text" class="key-typ" placeholder="Enter Keywords">
+            </div>
+            <div class="filter-search">
+              <button class="btn-filter">Filters</button>
+              <button class="btn-search">Search</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+          <div class="sale-white">
+
+            <div class="type-input">
+              <input type="text" class="inp-typ" placeholder="Type">
+              <input type="text" class="key-typ" placeholder="Enter Keywords">
+            </div>
+            <div class="filter-search">
+              <button class="btn-filter">Filters</button>
+              <button class="btn-search">Search</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!----------- ========== banner section ends ========== ----------->
+  <!----------- ========== Explore Property starts ========== ----------->
+
+  <div class="container main-cont p-0">
+
+    <div class="all-header">
+      <h3>Explore Our Properties</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+    <div class="explore-property">
+      <div class="rel-div">
+        <img src="assets/images/row1-1.jpeg" alt="">
+        <div class="abs-div">
+          <h6 class="mb-0">Town House</h6>
+          <p>2 Properties</p>
+        </div>
+      </div>
+      <div class="rel-div">
+        <img src="assets/images/row1-2.jpeg" alt="">
+        <div class="abs-div">
+          <h6 class="mb-0">Modern Villa</h6>
+          <p>10 Properties</p>
+        </div>
+      </div>
+      <div class="rel-div">
+        <img src="assets/images/row1-3.jpeg" alt="">
+        <div class="abs-div">
+          <h6 class="mb-0">Apartment</h6>
+          <p>3 Properties</p>
+        </div>
+      </div>
+      <div class="rel-div">
+        <img src="assets/images/row1-4.jpeg" alt="">
+        <div class="abs-div">
+          <h6 class="mb-0">Single Family</h6>
+          <p>5 Properties</p>
+        </div>
+      </div>
+      <div class="rel-div">
+        <img src="assets/images/row1-5.jpeg" alt="">
+        <div class="abs-div">
+          <h6 class="mb-0">Office</h6>
+          <p>3 Properties</p>
+        </div>
+      </div>
+    </div>
+
+    <!----------- ========== Explore Property ends ========== ----------->
+    <!----------- ========== Customer Favor starts ========== ----------->
+
+    <div class="all-header">
+      <h3>Our mission is to redefine real estate in the customer's favor.</h4>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div class="main">
+      <div class="row mb-2">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2 pe-0">
+          <div class="redefine pe-0">
+            <h4>5.2M</h4>
+            <h5>Owned from properties transactions</h5>
+            <p>Pellentesque egestas elementum egestas faucibus sem.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="redefine">
+            <h4>7K+</h4>
+            <h5>Properties For Buy</h5>
+            <p>Pellentesque egestas elementum egestas faucibus sem.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="redefine">
+            <h4>4K+</h4>
+            <h5>Properties Buy Sell</h5>
+            <p>Pellentesque egestas elementum egestas faucibus sem.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="redefine">
+            <h4>221+</h4>
+            <h5>Daily Completed Transactions</h5>
+            <p>Pellentesque egestas elementum egestas faucibus sem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------- ========== Customer Favor ends ========== ----------->
+    <!----------- ========== Discover Deals Starts ========== ----------->
+
+    <div class="all-header">
+      <h3>Discover Our Best Deals</h4>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div class="swiper faqSwiper ps-1 pe-1">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide s-swiper">
+
+          <div class="card first-card-img">
+            <img src="assets/images/row2-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Skyper Pool Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1020 Bloomingdale Ave</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$280,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="green-div two-div">
+              <h6 class="mb-0">FOR SALE</h6>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row2-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">North Dillard Street</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 4330 Bell Shoals Rd</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">400</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$250<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="green-div two-div">
+              <h6 class="mb-0">FOR SALE</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row2-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Eaton Garth Penthouse</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7722 18th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$180,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row2-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Skyper Pool Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1020 Bloomingdale Ave</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$280,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="green-div two-div">
+              <h6 class="mb-0">FOR SALE</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row2-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">North Dillard Street</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 4330 Bell Shoals Rd</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">400</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$250<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="green-div two-div">
+              <h6 class="mb-0">FOR SALE</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row2-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Eaton Garth Penthouse</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7722 18th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$180,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="swiper-pagination position-static swip-er"></div> -->
+
+    <!----------- ========== Discover Deals ends ========== ----------->
+  </div>
+
+  <!----------- ========== Explore City starts ========== ----------->
+
+  <div class="bgc">
+
+    <div class="container p-0">
+
+      <div class="all-header mb-2">
+        <h3>Explore Cities</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="explore-property">
+        <div class="rel-div">
+          <img src="assets/images/row3-1.jpeg" alt="" class="mb-3">
+          <div class="xplor-city">
+            <p class="mb-2">2 Properties</p>
+            <h6 class="mb-0">Chicago</h6>
+          </div>
+        </div>
+        <div class="rel-div">
+          <img src="assets/images/row3-2.jpeg" alt="" class="mb-3">
+          <div class="xplor-city">
+            <p class="mb-2">1 Property</p>
+            <h6 class="mb-0">Los Angeles</h6>
+          </div>
+        </div>
+        <div class="rel-div">
+          <img src="assets/images/row3-3.jpeg" alt="" class="mb-3">
+          <div class="xplor-city">
+            <p class="mb-2">2 Properties</p>
+            <h6 class="mb-0">Miami</h6>
+          </div>
+        </div>
+        <div class="rel-div">
+          <img src="assets/images/row3-4.jpeg" alt="" class="mb-3">
+          <div class="xplor-city">
+            <p class="mb-2">3 Properties</p>
+            <h6 class="mb-0">Florida</h6>
+          </div>
+        </div>
+        <div class="rel-div">
+          <img src="assets/images/row3-5.jpeg" alt="" class="mb-3">
+          <div class="xplor-city">
+            <p class="mb-2">8 Properties</p>
+            <h6 class="mb-0">New York</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!----------- ========== Explore City ends ========== ----------->
+  <!----------- ========== Property Rent starts ========== ----------->
+
+  <div class="container p-0">
+
+    <div class="all-header">
+      <h3>Recent Properties for Rent</h4>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div class="swiper faqSwiper2 ps-1 pe-1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">New Apartment Nice Wiew</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 42 Avenue O, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">460</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$850<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Villa Garden With Pool</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 6822 Bay Pkwy, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">3</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">350</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$350<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Ely Parkway Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7203 20th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">560</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$5,800<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Modern Elegant Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1458 W Taylor St</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">300</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$590<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">New Apartment Nice Wiew</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 42 Avenue O, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">460</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$850<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Villa Garden With Pool</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 6822 Bay Pkwy, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">3</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">350</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$350<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Ely Parkway Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7203 20th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">560</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$5,800<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row4-4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Modern Elegant Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1458 W Taylor St</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">300</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$590<span>/month</span></h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR RENT</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <div class="swiper-pagination position-static swip-er"></div> -->
+
+    <div class="all-header">
+      <h3>Discover Our Best Deals</h4>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div class="swiper faqSwiper2 ps-1 pe-1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Skyper Pool Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1020 Bloomingdale Ave</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$280,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Eaton Garth Penthouse</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7722 18th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$180,00</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Diamond Manor Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7802 20th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">500</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$259,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Comfortable Villa Green</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 214 Kings Hwy, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$158,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Skyper Pool Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 1020 Bloomingdale Ave</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$280,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Eaton Garth Penthouse</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7722 18th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$180,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Diamond Manor Apartment</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 7802 20th Ave, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">2</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">500</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$259,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide s-swiper">
+          <div class="card first-card-img">
+            <img src="assets/images/row5-4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body skyper">
+              <h5 class="card-title">Comfortable Villa Green</h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i> 214 Kings Hwy, Brooklyn</p>
+              <div class="Bloomingdal">
+
+                <div class="d-flex">
+                  <div class="bed">
+                    <img src="assets/images/icons/Bed (2).png" alt="">
+                    <p class="mb-0">4</p>
+                  </div>
+
+                  <div class="bath">
+                    <img src="assets/images/icons/Icon.png" alt="">
+                    <p class="mb-0">1</p>
+                  </div>
+
+                  <div class="big-area">
+                    <div class="area">
+                      <img src="assets/images/icons/Icon (1).png" alt="">
+                      <p class="mb-0">450</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="area-p">
+                  <h5 class="mb-0">$158,000</h5>
+                </div>
+
+              </div>
+            </div>
+            <div class="two-div">
+              <div class="green-div2">
+                <h6 class="mb-0">FOR SALE</h6>
+              </div>
+              <div class="skin-div">
+                <h6 class="mb-0">FEATURED</h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <div class="swiper-pagination position-static swip-er"></div> -->
+
+    <!----------- ========== Property Rent ends ========== ----------->
+    <!----------- ========== Perfect Home starts ========== ----------->
+
+    <div class="all-header mb-3">
+      <h3>How It works? Find a perfect home</h3>
+      <p>Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div class="main">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 col-sm-12 real-estate pe-0">
+          <div class="find">
+            <img src="assets/images/icons/1find.png" alt="">
+            <h4>Find Real Estate</h4>
+            <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet,
+              consectetur adipiscing</p>
+          </div>
+          <div class="meet">
+            <img src="assets/images/icons/1meet.png" alt="">
+            <h4>Find Real Estate</h4>
+            <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet,
+              consectetur adipiscing</p>
+          </div>
+          <div class="take">
+            <img src="assets/images/icons/1take.png" alt="">
+            <h4>Find Real Estate</h4>
+            <p>Sumo petentium ut per, at his wisim utinam adipiscing. Est ei graeco Lorem ipsum dolor sit amet,
+              consectetur adipiscing</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 building-img p-0">
+          <img src="assets/images/downbig1.jpeg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <!----------- ========== Perfect Home ends ========== ----------->
+
+  </div>
+
+  <!----------- ========== Discover Place starts ========== ----------->
+
+  <div class="discover">
+    <h3>Discover a place you'll <br>love to live</h3>
+    <p>Pellentesque egestas elementum egestas faucibus sem. Velit nunc <br>
+      egestas ut morbi. Leo diam diam</p>
+    <button>View Properties <i class="bi bi-caret-right"></i></button>
+  </div>
+
+  <!----------- ========== Discover Place ends ========== ----------->
+  <!----------- ========== Reason Section starts ========== ----------->
+
+  <div class="container">
+    <div class="row reason">
+      <div class="col-lg-6 col-md-12 class-reason">
+        <img src="assets/images/downbig2.jpeg" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 should-work">
+        <div>
+          <h3 class="mb-3">Why You Should Work <br>With Us</h3>
+          <p>Pellentesque egestas elementum egestas faucibus sem. Velit nunc egestas ut morbi. Leo diam diam nibh eget
+            fermentum massa pretium. Mi mauris nulla ac dictum ut mauris non.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h5 class="mb-2">Buy or Rent Homes</h5>
+            <p>We sell your home at the best market <br>price and very quickly as well.</p>
+            <button class="learn-more-btn">Learn More <i class="bi bi-caret-right"></i></button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h5 class="mb-2">Buy or Rent Homes</h5>
+            <p>We sell your home at the best market <br>price and very quickly as well.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!----------- ========== Reason Section ends ========== ----------->
+  <!----------- ========== Amazon Section starts ========== ----------->
+
+  <div class="container company-main-logo ">
+    <p>Thousands of world's leading companies trust Space</p>
+    <div class="company-logo-hero">
+      <div>
+        <img src="assets/images/row-amazone.png" alt="">
+      </div>
+      <div> 
+        <img src="assets/images/row-amd.png" alt="">
+      </div>
+      <div>
+        <img src="assets/images/row-cisco.png" alt="">
+      </div>
+      <div>
+        <img src="assets/images/row-dropcam.png" alt="">
+      </div>
+      <div>
+        <img src="assets/images/row-logitech.png" alt="">
+      </div>
+      <div>
+        <img src="assets/images/row-spotify.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!----------- ========== Amazon Section ends ========== ----------->
+  <!----------- ========== Black Section starts ========== ----------->
+
+  <div class="black">
+    <div class="tele">
+      <img src="assets/images/icons/telegram.png" alt="">
+    </div>
+    <h3>Stay Up to Date</h3>
+    <p>Subscribe to our newsletter to receive our weekly feed.</p>
+    <div class="imp-email">
+      <input type="emain" placeholder="Your e-mail">
+      <button>Send <i class="bi bi-caret-right"></i></button>
+    </div>
+  </div>
+
+  <!----------- ========== Black Section ends ========== ----------->
+
+
+  <!-- =====  Bootstrap JS  ===== -->
+  <script src="assets/bootstrap/popper.min.js"></script>
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+
+  <!-- =====  Swiper Slider JS  ===== -->
+  <script src="assets/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
